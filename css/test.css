@@ -1,0 +1,73 @@
+/* .description h1,
+.description h2,
+.description h3,
+.description h4,
+.description h5,
+.description h6 {
+  margin: 15px 0;
+}
+
+.description p{
+    margin: 10px 0;
+} */
+/* .description * {
+  margin: 0;
+} */
+
+/* .description > p {
+  color: red;
+} */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.test-p + p {
+  color: red;
+}
+
+ul > li {
+}
+ul > li > ul > li {
+}
+
+.description h3 ~ p {
+  margin: 12px 0;
+}
+
+.test-text + .images {
+  margin-top: -50px;
+}
+
+.test-text + .images {
+  margin-top: 50px;
+}
+
+#dada {
+  background: red;
+}
+
+section.test-text {
+  background: #fff;
+}
+
+/*  */
+.images-html {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  background: red;
+}
+.images-css {
+  background-image: url(../img/iPhone_x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background: url(../img/iPhone_x.png) no-repeat center/cover;
+
+  width: 160px;
+  height: 200px;
+}
