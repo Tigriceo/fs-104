@@ -38,3 +38,45 @@ img {
 body{
     font-family: 'Inter', sans-serif;
 }
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(0, 197, 235, 0.30) -1.97%, rgba(181, 68, 254, 0.30) 89.43%);
+    backdrop-filter: blur(17.5px);
+}
+
+.header-block {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #FFF;
+    font-size: 28px;
+    line-height: 1.21;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 1.208;
+}
+
+.menu-list__item {
+}
+
+.menu-list__link {
+    display: block;
+    padding: 29px 0 28px;
+}
